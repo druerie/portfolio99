@@ -64,6 +64,7 @@ img{
 #wrap{
     width: 100%;
     position: relative;
+    transition: all 0.4s;
 }
 /*헤더*/
 
@@ -405,4 +406,36 @@ header ul li{
 }
 #connect > .cb-line:nth-child(10){
     height: 3px;
+}
+
+
+/*500이하*/
+@media screen and (max-width : 500px) {
+    .intro_box > h2 {
+        font-size: 3em;
+    }
+
+    #me{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #me .self{
+        position: relative;
+        font-size: 5em;
+        padding-bottom: 10vh;
+        width: 100%;
+    }
+
+    #me .Challenge{
+        width: 100%;
+    }
+
+    #me .Challenge > div > h3{
+        font-size: 2.2em;
+    }
+
+    #connect > .text > h4{
+        font-size: 2em;
+    }
 }
