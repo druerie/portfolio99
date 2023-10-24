@@ -15,11 +15,11 @@ $(function(){
         }else if(scrollPosition >= connect){
             $("header > ul > li:nth-child(2)").css("color", "black");
             $("header > ul > li:nth-child(3)").css("color", "black");
-            $("header > ul > li:nth-child(4)").css("color", "blue");
+            $("header > ul > li:last-child").css("color", "blue");
         }else{
             $("header > ul > li:nth-child(2)").css("color", "black");
             $("header > ul > li:nth-child(3)").css("color", "black");
-            $("header > ul > li:nth-child(4)").css("color", "black");
+            $("header > ul > li:last-child").css("color", "black");
         }
 
 

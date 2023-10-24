@@ -219,6 +219,7 @@ header ul li{
     font-weight: bold;
     top: 80px;
     height: 15vh;
+    padding-bottom: 20vh;
 }
 
 #me .Challenge{
@@ -235,9 +236,10 @@ header ul li{
 }
 
 #me .Challenge > div > h3{
-    font-size: 1.8em;
+    font-size: 3.2em;
     margin-bottom: 1.8vw;
     font-weight: bold;
+    
 }
 
 #me .Challenge > div > .cline{
@@ -247,8 +249,9 @@ header ul li{
     margin-bottom: 1.8vw;
 }
 #me .Challenge > div > p{
-    font-size: 1em;
-    line-height: 1.4em;
+    font-size: 1.25em;
+    line-height: 1.8em;
+    width: 85%;
 }
 /*skill*/
 #skill{
