@@ -462,7 +462,7 @@ header ul li{
 
     #me .self{
         position: relative;
-        font-size: 2em;
+        font-size: 2.4em;
         padding-bottom: 6vh;
         width: 100%;
     }
@@ -476,11 +476,11 @@ header ul li{
     }
 
     .sk-2 > h2{
-        font-size: 2em;
+        font-size: 2.4em;
     }
 
     #connect > h2{
-        font-size: 2em;
+        font-size: 2.4em;
     }    
 
     #connect > .text > h4{
