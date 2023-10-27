@@ -443,8 +443,12 @@ header ul li{
         font-size: 4em;
     }
 
+    #connect > .text{
+        height: 30vh;
+    }
+
     #connect > .text > h4{
-        font-size: 1.8em;
+        font-size: 1.9em;
     }
 }
 
@@ -484,6 +488,6 @@ header ul li{
     }    
 
     #connect > .text > h4{
-        font-size: 1em;
+        font-size: 1.5em;
     }    
 }
